@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pro.jpg" alt="K N Mohammad Noufal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="K N Mohammad Noufal">Mohammad Noufal</h1>
+
+          <p class="title">Data Science enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mohammadnoufalctr@gmail.com" class="contact-link">mohammadnoufalctr@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919392320462" class="contact-link">+91 9392320462</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-01-21">January 21, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/leader-of-times" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/kn_noufal21" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mohammad-noufal/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+  <!--
+  - #NAVBAR
+-->
+
+<nav class="navbar">
+
+    <ul class="navbar-list">
+  
+      <li class="navbar-item">
+        <button class="navbar-link  active" data-nav-link>About</button>
+      </li>
+  
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Resume</button>
+      </li>
+  
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Portfolio</button>
+      </li>
+  
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Blog</button>
+      </li>
+  
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Contact</button>
+      </li>
+  
+    </ul>
+  
+  </nav>
+  
+  <!--
+    - #ABOUT
+  -->
+  
+  <article class="about  active" data-page="about">
+  
+    <header>
+      <h2 class="h2 article-title">About me</h2>
+    </header>
+  
+    <section class="about-text">
+      <p>
+        I'm an aspiring AI/ML engineer and Software Engineering Intern with hands-on experience in developing machine learning models, implementing deep learning techniques, and working with large datasets. Proficient in Python, TensorFlow, PyTorch, C++, SQL, and Data Analysis, I am passionate about leveraging my skills to solve real-world challenges.
+      </p>
+  
+      <p>
+        With a strong foundation in Natural Language Processing (NLP), Computer Vision, and Predictive Modeling, I aim to contribute to innovative AI/ML solutions that drive technological advancement. I am eager to apply my expertise in machine learning and data analysis to build scalable solutions and deliver impactful insights in the field of data science and AI.
+      </p>
+    </section>
+  
+    <!--
+      - service
+    -->
+  
+    <section class="service">
+      <h3 class="h3 service-title">What I'm doing</h3>
+      
+      <ul class="service-list">
+        <li class="service-item">
+          <div class="service-icon-box">
+            <!-- Machine Learning Icon (FontAwesome) -->
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Machine Learning</h4>
+            <p class="service-item-text">
+              Building and implementing machine learning models to solve real-world problems using algorithms like Random Forest, Scikit-learn, and more.
+            </p>
+          </div>
+        </li>
+      
+        <li class="service-item">
+          <div class="service-icon-box">
+            <!-- Deep Learning Icon (FontAwesome) -->
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Deep Learning</h4>
+            <p class="service-item-text">
+              Implementing deep learning techniques such as Convolutional Neural Networks (CNNs) to process complex data and achieve high-performance results.
+            </p>
+          </div>
+        </li>
+      
+        <li class="service-item">
+          <div class="service-icon-box">
+            <!-- Natural Language Processing Icon (FontAwesome) -->
+            <i class="fas fa-comment-dots"></i>
+          </div>
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Natural Language Processing</h4>
+            <p class="service-item-text">
+              Developing models for text classification, sentiment analysis, and other NLP tasks to extract meaningful insights from unstructured data.
+            </p>
+          </div>
+        </li>
+      
+        <li class="service-item">
+          <div class="service-icon-box">
+            <!-- Data Analysis Icon (FontAwesome) -->
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Data Analysis</h4>
+            <p class="service-item-text">
+              Leveraging data visualization and statistical techniques using tools like Power BI, SQL, and Python to derive actionable insights.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    
+    
+  
+  </article>
+  
+
+<!-- Resume Section -->
+
+  <article class="resume" data-page="resume">
+    <header>
+      <h2 class="h2 article-title">Resume</h2>
+    </header>
+
+    <!-- Education Section -->
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="book-outline"></ion-icon>
+        </div>
+        <h3 class="h3">Education</h3>
+      </div>
+
+      <ol class="timeline-list">
+        <!-- B.Tech Education -->
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">B.Tech in Computer Science and Business Systems (CSBS)</h4>
+          <span>VIT-AP University [Expected 2026]</span>
+          <p class="timeline-text">
+            CGPA: 8.43 <br>
+            Relevant Coursework: Data Structures, Object-Oriented Programming (OOP), Database Management, Algorithms, Machine Learning, Business Analytics, Data Science, Software Engineering
+          </p>
+        </li>
+
+        <!-- Sunbeam Senior Secondary School -->
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Sunbeam Senior Secondary School (CBSE)</h4>
+          <span>2020 — 2022</span>
+          <p class="timeline-text">
+            Focused on Science Stream with special emphasis on Mathematics and Computer Science.
+          </p>
+        </li>
+
+        <!-- B V REDDY Senior Secondary School -->
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">B V REDDY Senior Secondary School (CBSE)</h4>
+          <span>2012 — 2020</span>
+          <p class="timeline-text">
+            Completed schooling with a strong foundation in Science, Mathematics, and Social Studies.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-container">
+      <div class="skills-box">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <i class="fa fa-cogs"></i> <!-- Skills Icon -->
+          </div>
+          <h3 class="h3">Skills</h3>
+        </div>
+
+        <div class="tech-table">
+          <!-- Frontend & Design -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Frontend & Design</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML5">
+              <img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS3">
+              <img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript">
+              <img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React">
+              <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js">
+              <img src="https://skillicons.dev/icons?i=tailwindcss&theme=dark" alt="Tailwind CSS">
+              <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma">
+              <img src="https://skillicons.dev/icons?i=photoshop&theme=dark" alt="Photoshop">
+            </div>
+          </div>
+
+          <!-- Version Control -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Version Control</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git">
+              <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+              <img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash">
+            </div>
+          </div>
+
+          <!-- Editors -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Editors</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="VSCode">
+              <img src="https://skillicons.dev/icons?i=pycharm&theme=dark" alt="PyCharm">
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Languages</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python">
+              <img src="https://skillicons.dev/icons?i=c&theme=dark" alt="C">
+              <img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="C++">
+              <img src="https://skillicons.dev/icons?i=cs&theme=dark" alt="C#">
+              <img src="https://skillicons.dev/icons?i=r&theme=dark" alt="R">
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Databases</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL">
+              <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="MongoDB">
+            </div>
+          </div>
+
+          <!-- Systems -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Systems</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux">
+              <img src="https://skillicons.dev/icons?i=windows&theme=dark" alt="Windows">
+              <img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" alt="Ubuntu">
+            </div>
+          </div>
+
+          <!-- Backend & Cloud -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Backend & Cloud</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=express&theme=dark" alt="Express">
+              <img src="https://skillicons.dev/icons?i=django&theme=dark" alt="Django">
+              <img src="https://skillicons.dev/icons?i=firebase&theme=dark" alt="Firebase">
+              <img src="https://skillicons.dev/icons?i=aws&theme=dark" alt="AWS">
+            </div>
+          </div>
+
+          <!-- Machine Learning/AI -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Machine Learning/AI</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" alt="PyTorch">
+              <img src="https://skillicons.dev/icons?i=opencv&theme=dark" alt="OpenCV">
+            </div>
+          </div>
+
+          <!-- Miscellaneous -->
+          <div class="skill-category">
+            <h5 class="white-text vegas-gold">Miscellaneous</h5>
+            <hr>
+            <div class="icons">
+              <img src="https://skillicons.dev/icons?i=grafana&theme=dark" alt="Grafana">
+              <img src="https://skillicons.dev/icons?i=anaconda&theme=dark" alt="Anaconda">
+              <img src="https://skillicons.dev/icons?i=raspberrypi&theme=dark" alt="Raspberry Pi">
+              <img src="https://skillicons.dev/icons?i=arduino&theme=dark" alt="Arduino">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Non-Technical Skills Section -->
+    <!-- Non-Technical Skills Section -->
+<section class="soft-skills-container">
+  <div class="soft-skills-box">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <i class="fa fa-brain"></i> <!-- Soft Skills Icon -->
+      </div>
+      <h3 class="h3">Non-Technical Skills</h3>
+    </div>
+
+    <div class="soft-skills-grid">
+      <!-- Problem-solving -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Problem-Solving</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-lightbulb" style="font-size: 50px;"></i> <!-- Problem-solving Icon -->
+        </div>
+      </div>
+
+      <!-- Teamwork -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Teamwork</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-users" style="font-size: 50px;"></i> <!-- Teamwork Icon -->
+        </div>
+      </div>
+
+      <!-- Critical Thinking -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Critical Thinking</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-search" style="font-size: 50px;"></i> <!-- Critical Thinking Icon -->
+        </div>
+      </div>
+
+      <!-- Time Management -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Time Management</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-clock" style="font-size: 50px;"></i> <!-- Time Management Icon -->
+        </div>
+      </div>
+
+      <!-- Adaptability -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Adaptability</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-sync-alt" style="font-size: 50px;"></i> <!-- Adaptability Icon -->
+        </div>
+      </div>
+
+      <!-- Communication -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Communication</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-comment-dots" style="font-size: 50px;"></i> <!-- Communication Icon -->
+        </div>
+      </div>
+
+      <!-- Leadership -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Leadership</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-chalkboard-teacher" style="font-size: 50px;"></i> <!-- Leadership Icon -->
+        </div>
+      </div>
+
+      <!-- Conflict Resolution -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Conflict Resolution</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-handshake" style="font-size: 50px;"></i> <!-- Conflict Resolution Icon -->
+        </div>
+      </div>
+
+      <!-- Creativity -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Creativity</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-paint-brush" style="font-size: 50px;"></i> <!-- Creativity Icon -->
+        </div>
+      </div>
+
+      <!-- Emotional Intelligence -->
+      <div class="soft-skill-category">
+        <h5 class="white-text vegas-gold">Emotional Intelligence</h5>
+        <hr>
+        <div class="icons">
+          <i class="fas fa-heart" style="font-size: 50px;"></i> <!-- Emotional Intelligence Icon -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Leadership & Involvement Section -->
+    <section class="leadership-container">
+      <div class="leadership-box">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="people-outline"></ion-icon> <!-- Leadership Icon -->
+          </div>
+          <h3 class="h3">Leadership & Involvement</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              <span class="bullet-point"></span> Vice President & Event Coordinator, NextGen Cloud Club
+            </h4>
+            <span>VIT-AP University</span>
+            <p class="timeline-text">
+              • Led and organized national-level events on Cloud Computing, AI, and Data Analytics, with over 300 attendees. <br>
+              • Increased participation by 25% compared to previous events. <br>
+              • Coordinated a team of 15 members, ensuring the successful execution of events through effective planning and collaboration.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              <span class="bullet-point"></span> Event Coordinator, Tech Summit 2024
+            </h4>
+            <span>VIT-AP University</span>
+            <p class="timeline-text">
+              • Managed end-to-end planning of the university's annual tech summit. <br>
+              • Increased event turnout by 30% through innovative event strategies and marketing.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+  </article>
+
+<hr>
+</article>
+
+
+  
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
