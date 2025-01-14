@@ -317,7 +317,10 @@
   .avatar-box {
     background: var(--bg-gradient-onyx);
     border-radius: 20px;
+
   }
+  
+  
   
   .info-content .name {
     color: var(--white-2);
@@ -2300,34 +2303,33 @@ hr {
   
 }
   }
-
 /* Default (Light Mode) Styles */
 body {
-    background-color: #ffffff; /* Light background */
-    color: #000000; /* Dark text */
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  /* Dark Mode Styles */
-  body.dark-mode {
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text */
-  }
-  
-  /* Dark/Light Mode Button */
-  .theme-toggle-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: transparent;
-    border: none;
-    color: inherit;
-    font-size: 24px;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .theme-toggle-btn:hover {
-    transform: scale(1.1);
-  }
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+  transition: background-color 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
  
